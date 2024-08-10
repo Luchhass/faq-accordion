@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/bg.svg');
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-color: #f8eeff;
+  font-family: system-ui;
+}
+
+.sss {
+  margin-top: 180px;
+  width: 600px;
+  background-color: #fdfdfd;
+  padding: 40px;
+  padding-bottom: 16px;
+  margin-inline: auto;
+  border-radius: 16px;
+  box-shadow: #111;
+}
+
+.sss details {
+  border-bottom: 1px solid #ccc;
+}
+
+.sss details:last-child {
+  border-bottom: 0;
+}
+
+.sss details[open] {
+  padding-bottom: 24px;
+}
+
+.sss summary {
+  color: #301534;
+  font-weight: bold;
+  list-style: none;
+  background: url('../img/accordion-closed-icon.svg') right center no-repeat;
+  padding-block: 24px;
+  cursor: pointer;
+}
+
+.sss details[open] summary {
+  background-image: url('../img/accordion-open-icon.svg');
+}
